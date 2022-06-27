@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+<div>
+<h2>Student Form</h2>
+
+<form name="myForm" onsubmit="return validateForm()">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <label for="marks">Marks</label><br>
+  <input type="number" id="marks" name="marks"><br><br>
+  <label for="coding">Favourite Language</label><br>
+  <input type="radio" id="java" name="coding" value="Java">
+  <label for="java">Java</label><br>
+  <input type="radio" id="python" name="coding" value="Python">
+  <label for="python">Python</label><br>
+  <input type="radio" id="c" name="coding" value="C">
+  <label for="c">C</label><br><br>
+
+  <input type="submit" class="btn btn-success" value="Submit">
+</form>
+</div>
+
+
+</body>
+</html>
